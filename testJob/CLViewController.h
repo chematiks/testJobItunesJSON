@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CLViewController : UIViewController
+@interface CLViewController : UIViewController <UITableViewDataSource>
+{
+    BOOL ascending;
+}
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIView *sortLabelView;
 
 @end

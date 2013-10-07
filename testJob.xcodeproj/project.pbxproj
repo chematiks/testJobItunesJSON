@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C366816B17EDB83000B7BAA1 /* CLData.m in Sources */ = {isa = PBXBuildFile; fileRef = C366816A17EDB83000B7BAA1 /* CLData.m */; };
+		C366822217EE1C3E00B7BAA1 /* CLOneObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = C366822117EE1C3E00B7BAA1 /* CLOneObjects.m */; };
+		C366822517EE250800B7BAA1 /* CLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C366822417EE250800B7BAA1 /* CLDetailViewController.m */; };
+		C3D338C317EDA3FB0076DE9A /* CLCellImageNameDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D338C217EDA3FB0076DE9A /* CLCellImageNameDetail.m */; };
+		C3DAC61C1801C31D00D5C706 /* CLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAC61B1801C31D00D5C706 /* CLImageCache.m */; };
 		C3DCBC2217EB4AA50079444C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DCBC2117EB4AA50079444C /* Foundation.framework */; };
 		C3DCBC2417EB4AA50079444C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DCBC2317EB4AA50079444C /* CoreGraphics.framework */; };
 		C3DCBC2617EB4AA50079444C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DCBC2517EB4AA50079444C /* UIKit.framework */; };
@@ -34,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C366816917EDB83000B7BAA1 /* CLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLData.h; sourceTree = "<group>"; };
+		C366816A17EDB83000B7BAA1 /* CLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLData.m; sourceTree = "<group>"; };
+		C366822017EE1C3E00B7BAA1 /* CLOneObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLOneObjects.h; sourceTree = "<group>"; };
+		C366822117EE1C3E00B7BAA1 /* CLOneObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLOneObjects.m; sourceTree = "<group>"; };
+		C366822317EE250800B7BAA1 /* CLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDetailViewController.h; sourceTree = "<group>"; };
+		C366822417EE250800B7BAA1 /* CLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDetailViewController.m; sourceTree = "<group>"; };
+		C3D338C117EDA3FB0076DE9A /* CLCellImageNameDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCellImageNameDetail.h; sourceTree = "<group>"; };
+		C3D338C217EDA3FB0076DE9A /* CLCellImageNameDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCellImageNameDetail.m; sourceTree = "<group>"; };
+		C3DAC61A1801C31C00D5C706 /* CLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLImageCache.h; sourceTree = "<group>"; };
+		C3DAC61B1801C31D00D5C706 /* CLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLImageCache.m; sourceTree = "<group>"; };
 		C3DCBC1E17EB4AA50079444C /* testJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DCBC2117EB4AA50079444C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3DCBC2317EB4AA50079444C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,8 +130,18 @@
 				C3DCBC3017EB4AA50079444C /* CLAppDelegate.h */,
 				C3DCBC3117EB4AA50079444C /* CLAppDelegate.m */,
 				C3DCBC3317EB4AA50079444C /* Main.storyboard */,
+				C366822017EE1C3E00B7BAA1 /* CLOneObjects.h */,
+				C366822117EE1C3E00B7BAA1 /* CLOneObjects.m */,
+				C366816917EDB83000B7BAA1 /* CLData.h */,
+				C366816A17EDB83000B7BAA1 /* CLData.m */,
+				C3D338C117EDA3FB0076DE9A /* CLCellImageNameDetail.h */,
+				C3D338C217EDA3FB0076DE9A /* CLCellImageNameDetail.m */,
+				C3DAC61A1801C31C00D5C706 /* CLImageCache.h */,
+				C3DAC61B1801C31D00D5C706 /* CLImageCache.m */,
 				C3DCBC3617EB4AA50079444C /* CLViewController.h */,
 				C3DCBC3717EB4AA50079444C /* CLViewController.m */,
+				C366822317EE250800B7BAA1 /* CLDetailViewController.h */,
+				C366822417EE250800B7BAA1 /* CLDetailViewController.m */,
 				C3DCBC3917EB4AA50079444C /* Images.xcassets */,
 				C3DCBC2817EB4AA50079444C /* Supporting Files */,
 			);
@@ -250,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C366822217EE1C3E00B7BAA1 /* CLOneObjects.m in Sources */,
+				C3D338C317EDA3FB0076DE9A /* CLCellImageNameDetail.m in Sources */,
 				C3DCBC2E17EB4AA50079444C /* main.m in Sources */,
 				C3DCBC3217EB4AA50079444C /* CLAppDelegate.m in Sources */,
+				C366816B17EDB83000B7BAA1 /* CLData.m in Sources */,
+				C366822517EE250800B7BAA1 /* CLDetailViewController.m in Sources */,
 				C3DCBC3817EB4AA50079444C /* CLViewController.m in Sources */,
+				C3DAC61C1801C31D00D5C706 /* CLImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +491,7 @@
 				C3DCBC5217EB4AA50079444C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3DCBC5317EB4AA50079444C /* Build configuration list for PBXNativeTarget "testJobTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +500,7 @@
 				C3DCBC5517EB4AA50079444C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
